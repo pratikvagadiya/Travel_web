@@ -1,0 +1,737 @@
+/* ---------------------------- *
+    (max-width: 1699px)
+* ---------------------------- */
+@media screen and (max-width:1699px){
+    .banner_img img{
+        width:100%
+    }
+    .section_shape1{
+        display:none;
+    }
+}
+
+
+/* ---------------------------- *
+    (max-width: 1399px)
+* ---------------------------- */
+
+@media only screen and (max-width: 1399px){
+    .navbar-light .navbar-nav .nav-link{
+        padding:12px 26px;
+    }
+    .heading_s1{
+        font-size:80px
+    }
+    .heading_s1:before{
+        left:240px
+    }
+    .section_shape{
+        top:30px;
+    }
+    /* .rangoli_img{
+        display:none
+    } */
+}
+
+
+/* ---------------------------- *
+    (max-width: 1199px)
+* ---------------------------- */
+
+@media only screen and (max-width: 1199px){
+    .navbar-light .navbar-nav .nav-link{
+        padding:10px 14px;
+        font-size:16px
+    }
+    .nav-login{
+        font-size:16px
+    }
+    .header-btn, .asd li {
+        font-size:16px
+    }
+    .lng_dropdown{
+        font-size:16px
+    }
+    .banner_shape{
+        width:60%
+    }
+    .heading_s1{
+        font-size:66px
+    }
+    .heading_s1:before{
+        left:160px;
+        top:66px;
+    }
+    .section_shape{
+        top: 50px;
+    }
+    .icon_img{
+        padding-top: 38px;
+    }
+    .card_body p{
+        padding: 0px 18px;
+    }
+    .rangoli_img{
+        display:none;
+    } 
+    .box-shadow2{
+        padding:10px;
+        margin: 10px;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .bg_purplle{
+        padding: 70px 0px;
+    }
+    .bootm_footer{
+        padding: 50px 0px;
+    }
+}
+
+
+/* ---------------------------- *
+    (max-width:991px)
+* ---------------------------- */
+
+@media only screen and (max-width:991px){
+    .container{
+        max-width:820px
+    }
+    .navbar-collapse{
+        position: absolute;
+        left:0px;
+        right:0px;
+        top: 100%;
+        z-index: 999;
+    }
+    .header_wrap .navbar-collapse.show{
+        right:0;
+    }
+    .header_wrap .navbar-collapse{
+        position:fixed;
+        right: -470px;
+        display:block;
+        top: 74px;
+        bottom:0;
+        width:270px;
+        left:auto;
+        height:auto;
+        transition: all 0.3s ease-in-out;
+    }
+    .header_wrap, .navbar-collapse, .navbar-nav{
+        height:100% !important;
+        max-width:100vh !important;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top:30px;
+        right:0px
+    }
+    .mr_40{
+        margin-right:20px;
+    }
+    .navbar-light, .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .navbar-nav .nav-link{
+        background-color:#F0BB1F;
+    }
+    .banner_section{
+        padding:90px 0px 20px;
+    }
+    .banner_shape{
+        width:70%
+    }
+    .leads{
+        font-size:18px;
+        padding-bottom:30px;
+    }
+    .heading_s1{
+        font-size:60px;
+        line-height:76px
+    }
+    .heading_s1:before{
+        top:56px;
+        left:158px;
+    }
+    .text{
+        line-height:28px;
+        max-width:none
+    }
+    .section_shape{
+        display:none;
+    }
+    .pb_60{
+        padding:50px 0px
+    }
+    .heading_s2{
+        font-size:44px
+    }
+    .sub_heading{
+        padding-bottom:30px
+    }
+    .box-shadow{
+        margin-top: 20px;
+    }
+    .icon_img{
+        padding-top: 36px   ;
+    }
+    .card_body p{
+        padding: 0px 44px;
+    }
+    .country_img{
+        margin-top:20px
+    }
+    .pb_100{
+        padding:70px 0px;
+    }
+    .icon_p{
+        max-width:none
+    }
+    .swiper-container-vertical>.swiper-wrapper{
+        height: 270px;
+    }
+    .bg_white{
+        top:0px;
+    }
+    .color_img{
+        width:50%;
+    }
+    .bg_white1{
+        top:210px;
+        right:74px
+    }
+    .mx_width{
+        max-width:none
+    }
+    .swiper_shape{
+        left:15px;
+    }
+    .bg_purplle{
+        padding:60px 0px;
+    }
+    .subs_heading{
+        font-size:28px;
+        line-height:44px;
+        margin: 0 15px;
+        padding-bottom: 26px;
+    }
+    .email-box{
+        max-width:600px
+    }
+    .location_arrow i{
+        width:60px;
+        line-height:60px;
+        height: 60px;
+        font-size:24px
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .widget_links{
+        padding:24px 0px;
+    }
+    .widget_links li a{
+        font-size:18px;
+        line-height:34px
+    }
+    .bootm_footer{
+        padding: 40px 0px; 
+    }
+}
+
+
+/* ---------------------------- *
+    (max-width:768px)
+* ---------------------------- */
+
+@media only screen and (max-width:767px){
+    .container{
+        max-width: 620px !important;
+    }
+    .banner_section{
+        padding:80px 0px 20px;
+    }
+    .mr_40{
+        margin-right:14px;
+    }
+    .leads{
+        font-size:18px;
+        padding-bottom:30px;
+    }
+    .heading_s1{
+        font-size:56px;
+        line-height:65px
+    }
+    .heading_s1:before{
+        top:49px;
+        left:132px;
+    }
+    .header_btn button{
+        height:54px;
+    }
+    .ripple{
+        width:46px;
+        height:46px;    
+        margin:6px 0px 6px 28px
+    }
+    .ripple i{
+        line-height:46px;
+        font-size:12px
+    }
+    .pb_60{
+        padding:50px 0px;
+    }
+    .section_shape{
+        display:none
+    }
+    .heading_s2{
+        font-size:40px;
+    }
+    .box_shadow1{
+        padding:14px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .rangoli_img{
+        width:25% !important;
+        right: -40px !important;
+    }
+    .pb_100{
+        padding:60px 0px;
+    }
+    .color_img{
+        display:none;
+    }
+    .bg_white1{
+        top:214px;
+        padding:14px 10px 18px;
+        right:34px
+    }
+    .pt_44{
+        padding-top:28px;
+    }
+    .bg_purplle{
+        padding: 50px 0px;
+        border-radius:100px 18px 18px 18px
+    }
+    .subs_heading{
+        font-size: 22px;
+        line-height: 34px;
+        padding-bottom: 22px;
+    }
+    .pt-4{
+        padding-top: 0px !important;
+    }
+    .form{
+        height:56px;
+        padding-left:42px
+    }
+    .fa-envelope{
+        left:16px;
+        font-size: 18px;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .location_arrow i{
+        width:50px;
+        height:50px;
+        line-height:50px;
+        font-size:20px
+    }
+    .email-box{
+        margin:0 auto;
+        max-width:500px
+    }
+    .btn-fill{
+        margin-left:14px;
+    }
+    .ring_img{
+        left:6px;
+    }
+    .ring_img img{
+        width:86%
+    }
+    .small_ring{
+        display:none
+    }
+    .widget_links{
+        padding:20px 0px
+    }
+    .widget_links li a{
+        font-size:16px;
+        line-height:30px
+    }
+    .bootm_footer{
+        padding:30px 0px;
+    }
+}
+
+
+/* ---------------------------- *
+    (max-width:575px)
+* ---------------------------- */
+@media screen and (max-width:575px){
+    .btn{
+        font-size:14px
+    }
+    .banner_section{
+        padding:70px 0px 20px;
+    }
+    .banner_shape{
+        width:60%
+    }
+    .navbar-nav, .nav-link{
+        background-color: #F0BB1F;
+        font-size:16px !important;
+        padding:12px 14px !important;
+    }
+    .navbar-toggler{
+        top:16px
+    }
+    .nav-login{
+        font-size:14px
+    }
+    .m-4{
+        margin:12px 0px 0px 0px !important;
+    }
+    .mx-3{
+        margin:8px 0px 0px 10px !important;
+    }
+    .header-btn, .asd li{
+        width:80px;
+        height:30px;
+        padding-top:2px;
+        font-size:14px
+    }
+    .mt-4{
+        margin-top: 10px !important;
+    }
+    .heading_s1{
+        font-size:46px;
+        line-height:55px;
+        padding-bottom:20px;
+    }
+    .heading_s1:before{
+        top:41px;
+        left:50px;
+    }
+    .leads{
+        font-size:16px;
+        padding-bottom:20px;
+        align-items: center;
+    }
+    .text{
+        line-height: 24px;
+        padding-bottom:30px;
+    }
+    .header_btn button{
+        height:46px;
+        width:136px
+    }
+    .ripple{
+        width: 40px;
+        height: 40px;
+        margin:4px 0px 4px 22px ;
+    }
+    .ripple i{
+        font-size:10px;
+        line-height:40px;
+        margin-left: 2px;
+    }
+    .play_video{
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .pb_60{
+        padding:40px 0px;
+    }
+    .heading_s2{
+        font-size:34px;
+        line-height:40px
+    }
+    .sub_heading{
+        padding-bottom:24px
+    }
+    .box-shadow{
+        margin-top: 20px;
+    }
+    .icon_img{
+        padding-top: 30px;
+    }
+    .box_shadow1{
+        max-width:100%;
+    }
+    .bg_white1{
+        display:none
+    }
+    .pt_44{
+        padding-top:24px
+    }
+    .swiper-container-vertical>.swiper-pagination-bullets{
+        left: 0;
+    }
+    .bg_purplle{
+        border-radius: 40px 20px 20px 20px;
+    }
+    .location_arrow i{
+        width:34px;
+        height:34px;
+        line-height:34px;
+        font-size:14px;
+        right:-6px;
+        top:-10px
+    }
+    .pb-100{
+        padding-bottom:0px;
+    }
+    .subs_heading{
+        font-size:20px;
+        line-height:30px;
+        padding-bottom: 22px;   
+    }
+    .testimonials_box{
+        padding:15px 15px 15px 34px;
+    }
+    .email-box{
+        margin:0 15px;
+    }
+    .form{
+        height:46px;
+        padding-left:38px;
+    }
+    .fa-envelope{
+        font-size:16px;
+    }
+    .btn-fill{
+        margin-left:10px;
+    }
+    .small_ring{
+        display:none
+    }
+    .ring_img img{
+        width:80%
+    }
+    .widget{
+        font-size:18px;
+    }
+    .widget_links li a{
+        line-height:26px
+    }
+    .footer_heading{
+        font-size:18px;
+    }
+    .bootm_footer{
+        padding:24px 0px;
+    }
+
+
+}
+
+/* ---------------------------- *
+    (max-width:380px)
+* ---------------------------- */
+
+@media only screen and (max-width: 380px){
+    p{
+        font-size:14px
+    }
+    .btn{
+        font-size:12px
+    }
+    .banner_section{
+        padding:70px 0px 20px;
+    }
+    .logo_img{
+        width:100%
+    }
+    .mr_40{
+        margin-right:28px;
+    }
+    .navbar-toggler{
+        padding:0px
+    }
+    .navbar{
+        padding:8px 0px;
+    }
+    .navbar-nav, .nav-link{
+        font-size:14px !important;
+        padding:10px 20px !important;
+    } 
+    .nav-login{
+        font-size:13px;
+        position: absolute;
+    }
+    .header-btn, .asd li{
+        width: 62px;
+        height:30px;
+        padding-top: 3px;
+    }
+    .m-4{
+        margin-right:20px
+    }
+    .mx-3{
+        margin-left:42px !important;
+    }
+    .lng_dropdown{
+        font-size:12px;
+        margin-right:-6px;
+        margin-left: 0px;
+    }
+    .leads{
+        font-size: 14px;
+        padding-bottom:14px;
+    }
+    .heading_s1{
+        font-size:26px;
+        line-height: 32px;
+        padding-bottom: 16px;
+    }
+    .heading_s1:before{
+        top:22px;
+        left:0px;
+    }
+    .text{
+        line-height: 22px;
+        padding-bottom:20px;
+    }
+    .header_btn button{
+        max-width: 100px;
+        height:40px;
+    }
+    .ripple{
+        width: 30px;
+        height: 30px;
+    }
+    .ripple i{
+        font-size:8px;
+        line-height:30px;
+        margin-left: 2px;
+    }
+    .play_video{
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .pb_60{
+        padding:30px 0px;
+    }
+    .lead_p{
+        font-size:16px
+    }
+    .heading_s2{
+        font-size:24px;
+        line-height:26px
+    }
+    .sub_heading{
+        padding-bottom:20px;
+    }
+    .icon_img{
+        padding-top: 20px;
+    }
+    .card_body{
+        padding:18px 0px;
+    }
+    .heading_h5{
+        font-size:16px
+    }
+    .box-shadow{
+        margin-top: 10px;
+    }
+    .country_img{
+        margin-top: 10px;
+    }
+    .box_shadow1{
+        padding: 10px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .pb_100{
+        padding:50px 0px;
+    }
+    .pt_44{
+        padding-top: 20px;
+    }
+ 
+    .bg_white{
+        padding:10px 12px 18px;
+    }
+    .trip{
+        padding-top: 12px;
+    }
+    .building_text{
+        padding-top: 14px;
+    }
+    .text_p{
+        font-size:12px;
+    }
+    .subs_heading{
+        font-size:16px;
+        line-height:24px;
+        padding-bottom:22px;
+    }
+    .testimonials_box{
+        padding:12px 12px 12px 34px;
+    }
+    .bg_purplle{
+        padding:50px 0px;
+        border-radius: 54px 10px 10px;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .form{
+        height:40px;
+        padding-left:34px;
+    }
+    .fa-envelope{
+        left:12px;
+        font-size: 14px;
+    }
+    .btn-fill{
+        margin-left: 6px;
+    }
+    .small_ring img{
+        display:none;
+    }
+    .ring_img img{
+        width:70%;
+    }
+    .location_arrow i{
+        font-size:14px;
+        width:30px;
+        height:30px;
+        top:-8px;
+        right:-8px;
+        line-height:30px;
+    }
+    .widget_links{
+        padding:14px 0px
+    }
+    .widget{
+        font-size:16px;
+        margin-bottom: 0px;
+    }
+    .widget_links li a{
+        font-size:14px;
+        line-height:20px;
+    }
+    .social_icon li a i{
+        width: 30px;
+        height:30px;
+        line-height:30px;
+        font-size: 14px
+    }
+    .social_icon li{
+        padding:0px 12px 0px 0px;
+    }
+    .footer_heading{
+        font-size:16px;
+        padding:12px 0px;
+    }
+    .bootm_footer{
+        padding:20px 0px;
+    }
+}
